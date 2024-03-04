@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="HbbEyepetizer" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.HbbEyepetizer" parent="Base.Theme.HbbEyepetizer" />
+
+    <style name="HbbEyepetizer.SplashActivity">
+        <item name="android:windowBackground">@drawable/bg_splash_background</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="HbbEyepetizer.SettingTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">45dp</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="typeface">fzlLTypeface</item>
+    </style>
+
+    <style name="HbbEyepetizer.MineTextView" parent="HbbEyepetizer.SettingTextView">
+        <item name="android:layout_height">25.5dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">45dp</item>
+    </style>
+
+
+
+
+
+
+</resources>
